@@ -20,7 +20,13 @@ SpVoice = comtypes.client.CreateObject('SAPI.SpVoice')
 SVSFlagsAsync = 1
 
 
+def set_voice(voice_num):
+    SpVoice.Voice = SpVoice.GetVoices().Item(voice_num)
+
+
 def text_generator(state_dict):
+    set_voice(1)
+
     batch_size = 1
     nsamples=1
     assert nsamples % batch_size == 0

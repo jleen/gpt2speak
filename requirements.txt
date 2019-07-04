@@ -1,3 +1,3 @@
 regexp==0.1
--e git+https://github.com/jleen/gpt-2-Pytorch@0ea1c04bb22d65eab6ab1752d6265672f8665dd1#egg=gpt2pytorch
+git+https://github.com/jleen/gpt-2-Pytorch@a52135f9c5bebcdc0ecc13e0f045fd573b1c604f#egg=gpt2pytorch
 -e .

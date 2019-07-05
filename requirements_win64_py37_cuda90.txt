@@ -1,3 +1,7 @@
-regexp==0.1
+comtypes==1.1.7
+numpy==1.16.4
+regex==2019.6.8
+tqdm==4.32.2
+https://download.pytorch.org/whl/cu90/torch-1.1.0-cp37-cp37m-win_amd64.whl
 git+https://github.com/jleen/gpt-2-Pytorch@a52135f9c5bebcdc0ecc13e0f045fd573b1c604f#egg=gpt2pytorch
 -e .

@@ -87,3 +87,5 @@ def speak():
         print('Please download gpt2-pytorch_model.bin')
         sys.exit()
 
+
+if __name__ == "__main__": speak()

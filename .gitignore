@@ -1,7 +1,9 @@
 *.swp
 Lib
+build
 Scripts
 __pycache__
 gpt2-pytorch_model.bin
 gpt2speak.egg-info
 pyvenv.cfg
+speak.spec

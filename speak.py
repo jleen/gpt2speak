@@ -46,6 +46,7 @@ def text_generator(state_dict):
     model.eval()
 
     length = 10
+    ### Uncomment this for a nice lengthy sample.
     # length = config.n_ctx // 2
     if length > config.n_ctx:
         raise ValueError("Can't get samples longer than window size: %s" % config.n_ctx)
@@ -53,6 +54,7 @@ def text_generator(state_dict):
     quiet = False
     temperature = 0.7
     top_k = 40
+    ### Set this to a non-empty string to make GPT-2 "complete" that thought.
     text = ''
     unconditional = True
     print(text)

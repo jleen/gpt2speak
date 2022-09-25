@@ -1,5 +1,5 @@
 comtypes==1.1.7
-numpy==1.16.4
+numpy==1.22.0
 regex==2019.6.8
 tqdm==4.32.2
 git+https://github.com/jleen/gpt-2-Pytorch@a52135f9c5bebcdc0ecc13e0f045fd573b1c604f#egg=gpt2pytorch
